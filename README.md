@@ -1,2 +1,2 @@
-# Video-Compressor
+# Darkhound - Video-Compressor
  A powerful cli video compressor 
