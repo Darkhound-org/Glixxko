@@ -1,2 +1,2 @@
-# Darkhound - Video-Compressor
+### Glixxko
  A powerful cli video compressor 
