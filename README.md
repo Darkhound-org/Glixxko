@@ -1,2 +1,3 @@
 ### Glixxko
- A powerful cli video compressor 
+ A powerful cli video converter
+ 
