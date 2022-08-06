@@ -19,7 +19,7 @@ def main():
     logging.basicConfig(filename=lox_dir, level=logging.DEBUG,
                     format="%(asctime)s %(message)s", filemode="w")
    
-    logging.info("Called 'mp4.exe' , Executable directory: {0}".format(cwd))   
+    logging.info("Called 'mp4.py'")   
     logging.info("User input '2'")
     try:
 

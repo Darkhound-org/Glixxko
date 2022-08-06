@@ -20,7 +20,7 @@ def main():
     logging.basicConfig(filename=lok_dir, level=logging.DEBUG,
                     format="%(asctime)s %(message)s", filemode="w")
    
-    logging.info("Called 'mkv.exe' , Executable directory: {0}".format(cwd))   
+    logging.info("Called 'mkv.py'")   
     logging.info("User input '3'")
     try: 
 

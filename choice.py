@@ -11,7 +11,7 @@ def main():
     logging.basicConfig(filename=lo_dir, level=logging.DEBUG,
                     format="%(asctime)s %(message)s", filemode="w")
    
-    logging.info("Called 'choice.exe' , Executable directory: {0}".format(cwd))         
+    logging.info("Called 'choice.py'")         
     table = Table(title="| Convert to |")
 
     table.add_column("#", justify="left", style="cyan", no_wrap=True)
@@ -26,11 +26,8 @@ def main():
     table.add_row("7]", "flv")
     table.add_row("8]", "ts")
     table.add_row("9]", "webm")
-    table.add_row("10]", "vob")
-    table.add_row("11]", "gif")
-    table.add_row("12]", "3gp")
-    table.add_row("13]", "ogv")
-    table.add_row("14]", "quit")
+    table.add_row("10]", "gif")
+    table.add_row("11]", "quit")
 
 
 
