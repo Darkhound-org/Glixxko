@@ -1,0 +1,1 @@
+Darkhound-cli-help uses DDMMHH version formatting. For ex: 051913 , where 05 being 5th of August and 1913 being 19:13.
