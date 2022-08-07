@@ -1,1 +1,1 @@
-Darkhound-cli-help uses DDMMHH version formatting. For ex: 051913 , where 05 being 5th of August and 1913 being 19:13.
+Glixxko uses DDMMHH version formatting. For ex: 071039 , 07 being 7th of August and 1039 being 10:39.
