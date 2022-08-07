@@ -33,7 +33,7 @@ def main():
     logging.info("Called 'start.py' . Progress bar loaded.Project ready.") 
     
     print(art_start,"\xa9 2022") , print("Darkhound-org")
-    logging.info("Launched version 061300.")
+    logging.info("Launched version 071039.")
 
 if __name__ == "__main__":
     main()   
