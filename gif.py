@@ -25,7 +25,7 @@ def main():
             media_t_gif = input("Path to input file [default: file dialog]:") or easygui.fileopenbox()
             out_media_wex =  input("Output file name [default: output-gif]: ") or "output-gif"
             out_media = out_media_wex+".gif"
-            command ='ffmpeg-progress-yield ffmpeg -i ' + media_t_gif +' '+ out_media +' '+ '-qscale 0'
+            command ='ffpb -i ' + media_t_gif +' '+ out_media +' '+ '-qscale 0'
             subprocess.run(command)
                 
 

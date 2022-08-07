@@ -1,20 +1,6 @@
-### Glixxko
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+# app to list the recquired dir tree of Glixxko
+print("""
 
- A powerful python cli video converter
-
- * [DOWNLOAD]()
- * [DEVELOPING]()
- * [RUNNING]()
- * [REQUIREMENTS]()
- * [USAGE]()
- * [LICENSE]()
-
- #### Download
- Download the latest source code of the app from [releases](https://github.com/Darkhound-org/Glixxko/releases) or clone the repo `https://github.com/Darkhound-org/Glixxko.git`. Download dir-tree.exe and ffmpeg.exe from [releases](https://github.com/Darkhound-org/Glixxko/releases).
-Make sure all files are properly organized like in the directory tree below.
-```
 Glixxko/
     |
     |--- elements/
@@ -56,6 +42,19 @@ Glixxko/
 
 
 
-```
 
- 
+
+""")
+list_t = []
+ch = 0
+while ch !="q":
+    ch =input("Do you want to quit? [s(stay)/q(quit)][default: s(stay)] ")
+    if ch =="s":
+        pass
+
+    elif ch =="":
+        pass
+
+    elif  ch =="q":
+     
+       break
