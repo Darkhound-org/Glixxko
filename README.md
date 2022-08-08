@@ -1,13 +1,19 @@
 ### Glixxko
+```
+  ____  _      ___ __  ____  __ _  __  ___
+ / ___|| |    |_ _|\ \/ /\ \/ /| |/ / / _ \
+| |  _ | |     | |  \  /  \  / | ' / | | | |
+| |_| || |___  | |  /  \  /  \ | . \ | |_| |
+ \____||_____||___|/_/\_\/_/\_\|_|\_\ \___/
+ ```
+
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 
- A powerful python cli video converter
+ A powerful python 🐍 cli video converter ✨. It utilises ffmpeg for converting.
 
  * [DOWNLOAD]()
- * [DEVELOPING]()
- * [RUNNING]()
- * [REQUIREMENTS]()
+ * [DEVELOPING AND RUNNING]()
  * [USAGE]()
  * [LICENSE]()
 
@@ -53,9 +59,42 @@ Glixxko/
     └──     wmv.py
 
 
-
-
-
 ```
+#### Developing 
+Requirement:
+   * [Python](https://www.python.org/downloads/) 👈
+
+Fire up your favourite terminal and cd to the repo. Make a new `venv`, activate it and install the requirement by running `pip install -r requirements.txt`. [This may take a while...⚙️]
+
+Now run the app `python main.py`😜
+
+#### Usage
+##### Supported formats
+Glixxko supports all the formats mentioned below. More formats will be added in future releases.
+```
+┏━━━━━┳━━━━━━━━┓
+┃ #   ┃ Format ┃
+┡━━━━━╇━━━━━━━━┩
+│ 1]  │    mov │
+│ 2]  │    mp4 │
+│ 3]  │    mkv │
+│ 4]  │    avi │
+│ 5]  │    m4v │
+│ 6]  │    wmv │
+│ 7]  │    flv │
+│ 8]  │     ts │
+│ 9]  │   webm │
+│ 10] │    gif │
+│ 11] │   quit │
+└─────┴────────┘
+```
+Just enter your choice and select a file [give file path or just press enter for selecting with file dialog].
+Progress bars may be different according to your terminal. 
+
+![Screenshot](screenshot-glixxko.png)
+
+#### License
+Glixxko is licensed under the [Apache License 2.0](LICENSE)
+
 
  
