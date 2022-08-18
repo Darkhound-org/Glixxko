@@ -96,8 +96,6 @@ Progress bars may be different according to your terminal.
 #### License
 Glixxko is licensed under the [Apache License 2.0](LICENSE)
 
-###### Join our [Discord server](https://discord.gg/BSrD4kukaZ) now to get notified of latest updates ,new releases and detailed changelogs 🔥🔥🔥
-
 
 
  
